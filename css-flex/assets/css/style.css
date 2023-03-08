@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image: url('../img/world-wide-travel-logo-png-transparent.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 100px;
+    height: 90px;
+}
+
+header nav .inform {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+header .line{
+    background-color: rgb(13, 108, 108);
+    width: 100%;
+    height: 4px;
+}
+
+.one {
+    background-color: #e6e5e5;
+}
+
+.one h4 {
+    text-align: center;
+    color: rgb(193, 193, 37);
+    padding-top: 20px;
+}
+
+.one p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.one-body {
+    display: flex;
+    justify-content:space-around
+}
+
+.one-body article {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imageart {
+    width: 400px;
+    height: 300px;
+}
+
+.imageart img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textart {
+    background-color: white;
+    padding: 0 50px;
+}
+
+.textart .fa-star {
+    color: yellow;
+    padding-top: 15px;
+}
+
+.textart a {
+    color: grey;
+    text-decoration: none;
+}
+
+.textart h3 {
+    font-weight: bolder;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.textart .cost {
+    color: green;
+    font-weight: bold;
+}
+
+.textart hr {
+    margin: 30px 0;
+}
+
+.textart .locationin {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.textart .time{
+    padding-right: 15px;
+}
