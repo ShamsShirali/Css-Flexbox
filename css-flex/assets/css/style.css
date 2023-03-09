@@ -22,6 +22,10 @@ header nav {
     align-items: center;
 }
 
+header nav ul li{
+    display: inline;
+}
+
 header nav img {
     width: 100px;
     height: 90px;
